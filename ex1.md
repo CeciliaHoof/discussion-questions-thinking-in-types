@@ -19,11 +19,11 @@ arguments. They also hint at what the 'right' operations to do are.
 | Function                                              | types of inputs | type of output | _resources_                                                                                               |
 | ----------------------------------------------------- | --------------- | -------------- | --------------------------------------------------------------------------------------------------------- |
 | `function subtractThree(number) { return number - 3}` | _number_        | _number_ | [Subtraction(-)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Subtraction) |
-| `function addFive(number) { return number + 5}`       |                 |                | [Addition(+)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Addition)       |
-| `function sum(A, B) { return A + B }`                 |                 |                | [Addition(+)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Addition)       |
-| `function concat(A, B) { return "" + A + B }`         |                 |                | [Addition(+)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Addition)       |
-| `document.querySelector`                              |                 |                | [querySelector](https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelector)                  |
-| `window.fetch`                                        |                 |                | [fetch](https://developer.mozilla.org/en-US/docs/Web/API/fetch)                                           |
+| `function addFive(number) { return number + 5}`       | _number_ | _number_ | [Addition(+)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Addition)       |
+| `function sum(A, B) { return A + B }`                 | _number_ or _string_ or _boolean_ | _number_ or _string_| [Addition(+)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Addition)       |
+| `function concat(A, B) { return "" + A + B }`         | _number_ or _string_ | _string_ | [Addition(+)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Addition)       |
+| `document.querySelector`                              | _string_ | _object_ or _null_ | [querySelector](https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelector)                  |
+| `window.fetch`                                        | _string_  or _object_ | _object_ | [fetch](https://developer.mozilla.org/en-US/docs/Web/API/fetch)                                           |
 
 
 [Main menu](README.md) | [Exercise 2 - Shapes of Objects](ex2.md)
